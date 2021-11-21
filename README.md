@@ -2,7 +2,7 @@
 Code for the paper entitled "Student-Teacher Feature Pyramid Matching for Anomaly Detection" (BMVC 2021)
 
 
-![contents](./figs/arch.pdf)
+![plot](./figs/arch.jpg)
 
 
 # Citation
