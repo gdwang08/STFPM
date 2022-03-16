@@ -28,7 +28,7 @@ def pro(masks, scores):
         https://github.com/YoungGod/DFR/blob/a942f344570db91bc7feefc6da31825cf15ba3f9/DFR-source/anoseg_dfr.py#L447
     '''
     # per region overlap
-    max_step = 20000
+    max_step = 4000
     max_th = scores.max()
     min_th = scores.min()
     delta = (max_th - min_th) / max_step
