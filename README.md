@@ -12,7 +12,7 @@ Download dataset from [MvTec website](https://www.mvtec.com/company/research/dat
 # Training
 Train a model:
 ```
-python main.py train --mvtec-ad mvtec_anomaly_detection --category carpet  
+python main.py train --mvtec-ad mvtec_anomaly_detection --category carpet --epochs 200
 ```
 After running this command, a directory `snapshots/carpet` should be created.
 
@@ -27,6 +27,9 @@ For per-region-overlap (PRO) calculation, you may refer to [here](https://github
 
 
 # Results
+
+You are expected to obtain the same number given the pre-trained models.
+
 |  Category    |   AUC-ROC(pixel)  |   AUC-ROC (image)  | 
 | :---------:  |  :-----: |  :-----: |
 | carpet       | 0.990292 | 0.964286 |
