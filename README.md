@@ -26,6 +26,29 @@ This command will evaluate the model specified by --checkpoint argument. You may
 For per-region-overlap (PRO) calculation, you may refer to [here](https://github.com/YoungGod/DFR/blob/a942f344570db91bc7feefc6da31825cf15ba3f9/DFR-source/anoseg_dfr.py#L447). Note that it might take a long time for PRO calculation.
 
 
+# Results
+|  Category    |   Pixel  |   Image  | 
+| :---------:  |  :-----: |  :-----: |
+| carpet       | 0.990292 | 0.964286 |
+| grid         | 0.989622 | 0.982456 |
+| leather      | 0.990707 | 0.950747 |
+| tile         | 0.969067 | 0.982323 |
+| wood         | 0.964588 | 0.996491 |
+| bottle       | 0.987894 | 1.000000 |
+| cable        | 0.957504 | 0.935532 |
+| capsule      | 0.985730 | 0.893498 |
+| hazelnut     | 0.984715 | 1.000000 |
+| meta_nut     | 0.971789 | 0.983382 |
+| pill         | 0.975505 | 0.951173 |
+| screw        | 0.988481 | 0.894651 |
+| toothbrush   | 0.989551 | 0.897222 |
+| transistor   | 0.819404 | 0.939167 |
+| zipper       | 0.987756 | 0.961397 |
+| average      | 0.970174 | 0.955488 |
+
+
+
+
 # Citation
 
 If you find the work useful in your research, please cite our papar.
