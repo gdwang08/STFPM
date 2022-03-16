@@ -27,7 +27,7 @@ For per-region-overlap (PRO) calculation, you may refer to [here](https://github
 
 
 # Results
-|  Category    |   Pixel  |   Image  | 
+|  Category    |   AUC-ROC(pixel)  |   AUC-ROC (image)  | 
 | :---------:  |  :-----: |  :-----: |
 | carpet       | 0.990292 | 0.964286 |
 | grid         | 0.989622 | 0.982456 |
@@ -44,7 +44,7 @@ For per-region-overlap (PRO) calculation, you may refer to [here](https://github
 | toothbrush   | 0.989551 | 0.897222 |
 | transistor   | 0.819404 | 0.939167 |
 | zipper       | 0.987756 | 0.961397 |
-| average      | 0.970174 | 0.955488 |
+| <b>average</b>      | <b>0.970174</b> | <b>0.955488</b> |
 
 
 
