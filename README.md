@@ -28,7 +28,7 @@ For per-region-overlap (PRO) calculation, you may refer to [here](https://github
 
 # Results
 
-You are expected to obtain the same number given the pre-trained models.
+You are expected to obtain the same numbers given the pre-trained models.
 
 |  Category    |   AUC-ROC(pixel)  |   AUC-ROC (image)  | 
 | :---------:  |  :-----: |  :-----: |
